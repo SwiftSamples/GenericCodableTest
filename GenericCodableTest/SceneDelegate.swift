@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  GenericCodableTest
-//
-//  Created by Swapna Botta on 04/04/22.
-//
 
 import UIKit
 

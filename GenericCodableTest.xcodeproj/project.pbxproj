@@ -13,9 +13,20 @@
 		C620102027FB1431003FAEA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C620101E27FB1431003FAEA0 /* Main.storyboard */; };
 		C620102227FB1436003FAEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C620102127FB1436003FAEA0 /* Assets.xcassets */; };
 		C620102527FB1436003FAEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C620102327FB1436003FAEA0 /* LaunchScreen.storyboard */; };
+		C620104027FB14F9003FAEA0 /* APIReqeustManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103327FB14F9003FAEA0 /* APIReqeustManager.swift */; };
+		C620104127FB14F9003FAEA0 /* ExtraFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103527FB14F9003FAEA0 /* ExtraFunctionality.swift */; };
+		C620104227FB14F9003FAEA0 /* CommonMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103627FB14F9003FAEA0 /* CommonMessage.swift */; };
+		C620104327FB14F9003FAEA0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103727FB14F9003FAEA0 /* Toast.swift */; };
+		C620104427FB14F9003FAEA0 /* APIJSONReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103827FB14F9003FAEA0 /* APIJSONReponse.swift */; };
+		C620104527FB14F9003FAEA0 /* Reachablity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103927FB14F9003FAEA0 /* Reachablity.swift */; };
+		C620104627FB14F9003FAEA0 /* APIBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620103A27FB14F9003FAEA0 /* APIBaseModel.swift */; };
+		C620104927FB1565003FAEA0 /* UpComingMoviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620104827FB1565003FAEA0 /* UpComingMoviewModel.swift */; };
+		E74B7CD55F5057BB02E1BF17 /* Pods_GenericCodableTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A355F23E5E3AA0B73E5F5 /* Pods_GenericCodableTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		733A355F23E5E3AA0B73E5F5 /* Pods_GenericCodableTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericCodableTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCFED9CAB74A5AA77324EB2 /* Pods-GenericCodableTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericCodableTest.debug.xcconfig"; path = "Target Support Files/Pods-GenericCodableTest/Pods-GenericCodableTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C620101527FB1431003FAEA0 /* GenericCodableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericCodableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C620101827FB1431003FAEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C620101A27FB1431003FAEA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		C620102127FB1436003FAEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C620102427FB1436003FAEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C620102627FB1436003FAEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C620103327FB14F9003FAEA0 /* APIReqeustManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIReqeustManager.swift; sourceTree = "<group>"; };
+		C620103527FB14F9003FAEA0 /* ExtraFunctionality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraFunctionality.swift; sourceTree = "<group>"; };
+		C620103627FB14F9003FAEA0 /* CommonMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMessage.swift; sourceTree = "<group>"; };
+		C620103727FB14F9003FAEA0 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		C620103827FB14F9003FAEA0 /* APIJSONReponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIJSONReponse.swift; sourceTree = "<group>"; };
+		C620103927FB14F9003FAEA0 /* Reachablity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachablity.swift; sourceTree = "<group>"; };
+		C620103A27FB14F9003FAEA0 /* APIBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIBaseModel.swift; sourceTree = "<group>"; };
+		C620104827FB1565003FAEA0 /* UpComingMoviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpComingMoviewModel.swift; sourceTree = "<group>"; };
+		FB5CE0EBD3450D718BC035C2 /* Pods-GenericCodableTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericCodableTest.release.xcconfig"; path = "Target Support Files/Pods-GenericCodableTest/Pods-GenericCodableTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74B7CD55F5057BB02E1BF17 /* Pods_GenericCodableTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		195D43F8308EB0935541697E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733A355F23E5E3AA0B73E5F5 /* Pods_GenericCodableTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C620100C27FB1431003FAEA0 = {
 			isa = PBXGroup;
 			children = (
 				C620101727FB1431003FAEA0 /* GenericCodableTest */,
 				C620101627FB1431003FAEA0 /* Products */,
+				C980DA7367A4AC0BC212AA66 /* Pods */,
+				195D43F8308EB0935541697E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +89,8 @@
 			children = (
 				C620101827FB1431003FAEA0 /* AppDelegate.swift */,
 				C620101A27FB1431003FAEA0 /* SceneDelegate.swift */,
+				C620102C27FB14F9003FAEA0 /* Networking */,
+				C620104727FB154A003FAEA0 /* Model */,
 				C620101C27FB1431003FAEA0 /* ViewController.swift */,
 				C620101E27FB1431003FAEA0 /* Main.storyboard */,
 				C620102127FB1436003FAEA0 /* Assets.xcassets */,
@@ -67,6 +100,46 @@
 			path = GenericCodableTest;
 			sourceTree = "<group>";
 		};
+		C620102C27FB14F9003FAEA0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C620103327FB14F9003FAEA0 /* APIReqeustManager.swift */,
+				C620103427FB14F9003FAEA0 /* Toast */,
+				C620103827FB14F9003FAEA0 /* APIJSONReponse.swift */,
+				C620103927FB14F9003FAEA0 /* Reachablity.swift */,
+				C620103A27FB14F9003FAEA0 /* APIBaseModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C620103427FB14F9003FAEA0 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				C620103527FB14F9003FAEA0 /* ExtraFunctionality.swift */,
+				C620103627FB14F9003FAEA0 /* CommonMessage.swift */,
+				C620103727FB14F9003FAEA0 /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		C620104727FB154A003FAEA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C620104827FB1565003FAEA0 /* UpComingMoviewModel.swift */,
+			);
+			name = Model;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C980DA7367A4AC0BC212AA66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFED9CAB74A5AA77324EB2 /* Pods-GenericCodableTest.debug.xcconfig */,
+				FB5CE0EBD3450D718BC035C2 /* Pods-GenericCodableTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C620102927FB1436003FAEA0 /* Build configuration list for PBXNativeTarget "GenericCodableTest" */;
 			buildPhases = (
+				A530CC86207038AB501F6B0B /* [CP] Check Pods Manifest.lock */,
 				C620101127FB1431003FAEA0 /* Sources */,
 				C620101227FB1431003FAEA0 /* Frameworks */,
 				C620101327FB1431003FAEA0 /* Resources */,
+				FF084B4983A64F9C776D21FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +208,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A530CC86207038AB501F6B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenericCodableTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF084B4983A64F9C776D21FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GenericCodableTest/Pods-GenericCodableTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GenericCodableTest/Pods-GenericCodableTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenericCodableTest/Pods-GenericCodableTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C620101127FB1431003FAEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C620104327FB14F9003FAEA0 /* Toast.swift in Sources */,
+				C620104527FB14F9003FAEA0 /* Reachablity.swift in Sources */,
 				C620101D27FB1431003FAEA0 /* ViewController.swift in Sources */,
 				C620101927FB1431003FAEA0 /* AppDelegate.swift in Sources */,
+				C620104127FB14F9003FAEA0 /* ExtraFunctionality.swift in Sources */,
+				C620104427FB14F9003FAEA0 /* APIJSONReponse.swift in Sources */,
+				C620104627FB14F9003FAEA0 /* APIBaseModel.swift in Sources */,
+				C620104027FB14F9003FAEA0 /* APIReqeustManager.swift in Sources */,
+				C620104227FB14F9003FAEA0 /* CommonMessage.swift in Sources */,
+				C620104927FB1565003FAEA0 /* UpComingMoviewModel.swift in Sources */,
 				C620101B27FB1431003FAEA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +409,7 @@
 		};
 		C620102A27FB1436003FAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCFED9CAB74A5AA77324EB2 /* Pods-GenericCodableTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +437,7 @@
 		};
 		C620102B27FB1436003FAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5CE0EBD3450D718BC035C2 /* Pods-GenericCodableTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
